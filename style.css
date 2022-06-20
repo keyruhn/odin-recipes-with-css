@@ -1,0 +1,64 @@
+/*CSS FOR ODIN RECIPES*/
+.title {
+    color: white;
+    background-color: green;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 46px;
+}
+.title.subheading {
+    color: black;
+    background-color: lightgreen;
+    font-family: sans-serif;
+    font-size: 26px;
+}
+
+.para {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.table,
+.main-images, 
+.recipe-image {
+    display: table;
+    margin: 0 auto;
+}
+
+ul#horizontal-list {
+    text-align: center;
+    list-style: none;
+    padding-top: 5px;
+    background-color: lavenderblush;
+}
+
+ul#horizontal-list li {
+    display: inline;
+    padding-left: 25px;
+    padding-right: 75px;
+}
+
+a {
+    color: black;
+    font-weight: bold;
+}
+
+
+/*CSS FOR RECIPES*/
+.link {
+    text-align: center;
+    background-color: lavenderblush;
+}
+
+p {
+    font-weight: bold;
+}
+ 
+.steps, .ingredients {
+    font-weight: bold;
+    background-color: green;
+    color: white;
+    padding-left: 10px;
+}
+
